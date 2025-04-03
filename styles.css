@@ -1,0 +1,12 @@
+.login-header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary-color);
+  border-radius: 0 0 20px 20px;
+  
+  max-height: none; /* Permite altura dinâmica */
+  overflow: visible; /* Garante que nada seja cortado */
+} 
